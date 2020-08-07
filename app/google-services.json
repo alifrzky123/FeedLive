@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "389806095468",
+    "firebase_url": "https://feedlive-794ae.firebaseio.com",
+    "project_id": "feedlive-794ae",
+    "storage_bucket": "feedlive-794ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389806095468:android:f8f56833652932eaf86c49",
+        "android_client_info": {
+          "package_name": "com.project.feedlive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389806095468-r133qqer6tm8thb6oa9hn1vk01cqlgft.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.feedlive",
+            "certificate_hash": "12a8297f11ef122e63cc568b11593bec1850c675"
+          }
+        },
+        {
+          "client_id": "389806095468-ehvcf70d6bfk1c46va6kq66hqbloak35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo5-B7oJIuQFw0I7E9bUvFqAhgfwfiY-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389806095468-ehvcf70d6bfk1c46va6kq66hqbloak35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:padding="15dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_pro_pict"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/ic_launcher_background"/>
+            <TextView
+                android:id="@+id/tv_total_posts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 Posts"
+                android:textStyle="bold"
+                android:layout_above="@+id/btn_update_profile"
+                android:layout_toRightOf="@+id/iv_pro_pict"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:id="@+id/tv_total_followers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 Followers"
+                android:layout_above="@+id/btn_update_profile"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/tv_total_posts"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:id="@+id/tv_total_followings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/btn_update_profile"
+                android:text="10 Following"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/tv_total_followers"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:id="@+id/tv_pro_uname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_toRightOf="@+id/iv_pro_pict"/>
+            <TextView
+                android:id="@+id/tv_bio_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bio"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_below="@+id/tv_pro_uname"
+                android:layout_toRightOf="@id/iv_pro_pict"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/btn_update_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_pro_pict"
+                android:text="Edit Profile"/>
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/btn_update_profile">
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/tab_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </androidx.viewpager.widget.ViewPager>
+
+
+
+        </RelativeLayout>
+            </androidx.core.widget.NestedScrollView>
+</RelativeLayout>
