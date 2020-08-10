@@ -1,8 +1,10 @@
-package com.project.feedlive;
+package com.project.feedlive.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.project.feedlive.R;
 
 public class RegisterActivity extends AppCompatActivity {
 

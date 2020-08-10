@@ -6,11 +6,11 @@
         android:icon="@drawable/ic_home_black_24dp"/>
     <item
         android:id="@+id/nav_add"
-        android:title="D. Pekerjaan"
+        android:title="Add Photo"
         android:icon="@drawable/ic_add_black_24dp"/>
     <item
         android:id="@+id/nav_liked_post"
-        android:title="Tentang"
+        android:title="Liked"
         android:icon="@drawable/heart"/>
     <item
         android:id="@+id/nav_profil"

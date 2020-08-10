@@ -1,4 +1,4 @@
-package com.project.feedlive;
+package com.project.feedlive.adapter;
 
 import android.view.View;
 import android.view.ViewGroup;
